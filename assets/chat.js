@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const loadingId = addLoading();
 
         try {
-            const response = await fetch('http://139.180.156.116:8001/api/chat', {
+            const response = await fetch('http://139.180.156.116/api/chat', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
