@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram E-commerce - The Ultimate Bot Platform</title>
+    <meta name="description" content="Build and manage your powerful Telegram E-commerce Bot. Features AI Integration, Affiliate Programs, Storefronts, Giveaways, and more.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/style.css?v=2">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="https://t.me/tg_ecommerce_official_bot" class="logo" style="white-space: nowrap;">
+                <i class="fa-solid fa-robot"></i> <span class="logo-text">Telegram E-commerce</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#features" data-i18n="nav_features">Features</a></li>
+                <li><a href="#breakdowns" data-i18n="nav_demo">Admin Panels & Demo</a></li>
+                <li><a href="#guides" data-i18n="nav_guides">Guides & Setup</a></li>
+                <li><a href="#pricing" data-i18n="nav_pricing">Pricing</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="langSwitcherBtn" class="lang-switch-btn" data-lang="en">🇰🇺 EN</button>
+                <a href="https://t.me/tg_ecommerce_official_bot" target="_blank" class="btn btn-outline" data-i18n="nav_login">Login</a>
+                <a href="https://t.me/tg_ecommerce_official_bot" target="_blank" class="btn btn-primary" data-i18n="nav_create_bot">Create Your Bot</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <!-- Glowing background blobs -->
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        
+        <div class="container hero-content">
+            <div class="hero-badge" data-i18n="hero_badge">🚀 The #1 Telegram E-Commerce Platform</div>
+            <h1 class="hero-title" data-i18n="hero_title">Sell Smarter on Telegram with <span class="gradient-text">AI Power</span></h1>
+            <p class="hero-subtitle" data-i18n="hero_subtitle">
+                Create a fully functional storefront inside Telegram. Featuring automated payments, AI agents, localized currencies, broadcast systems, and affiliate tracking. No coding required.
+            </p>
+            <div class="hero-cta">
+                <a href="https://t.me/tg_ecommerce_official_bot" target="_blank" class="btn btn-primary btn-large" data-i18n="hero_cta">
+                    Start Building For Free <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="#features" class="btn btn-secondary btn-large" data-i18n="hero_explore">
+                    Explore Features
+                </a>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <h3>500+</h3>
+                    <p data-i18n="stats_bots">Active Bots</p>
+                </div>
+                <div class="stat-item">
+                    <h3>10K+</h3>
+                    <p data-i18n="stats_orders">Daily Orders</p>
+                </div>
+                <div class="stat-item">
+                    <h3>99.9%</h3>
+                    <p data-i18n="stats_uptime">Uptime</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="features_title">Everything you need to run your business</h2>
+                <p data-i18n="features_subtitle">A complete E-commerce system operating autonomously within Telegram's digital ecosystem.</p>
+            </div>
+            
+            <div class="features-grid">
+                <!-- Features 1 to 9 -->
+                <div class="feature-card glass-card">
+                    <div class="feature-icon"><i class="fa-solid fa-robot"></i></div>
+                    <h3 data-i18n="feat_1_title">Automated Selling</h3>
+                    <p data-i18n="feat_1_desc">Sell your products automatically without manual intervention. Your bot handles the showcase 24/7.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <h3 data-i18n="feat_2_title">Add to Cart & Order</h3>
+                    <p data-i18n="feat_2_desc">Real E-commerce experience with 'Add to Cart'. Browse products, add them to your cart, and checkout seamlessly.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon"><i class="fa-solid fa-receipt"></i></div>
+                    <h3 data-i18n="feat_3_title">Order Slips</h3>
+                    <p data-i18n="feat_3_desc">Automatically generate and provide detailed order slips to customers upon successful checkout.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <h3 data-i18n="feat_4_title">Sales Reports</h3>
+                    <p data-i18n="feat_4_desc">Automatically compile daily and monthly sales data and generate accurate statistical reports.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon"><i class="fa-solid fa-credit-card"></i></div>
+                    <h3 data-i18n="feat_5_title">Custom Payments</h3>
+                    <p data-i18n="feat_5_desc">Integrate your preferred payment methods effortlessly. Allow customers to pay how they want.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon"><i class="fa-solid fa-headset"></i></div>
+                    <h3 data-i18n="feat_6_title">24/7 AI Support</h3>
+                    <p data-i18n="feat_6_desc">AI answers customer inquiries around the clock on your behalf, ensuring no missed opportunities.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon"><i class="fa-regular fa-comments"></i></div>
+                    <h3 data-i18n="feat_7_title">Direct Chat</h3>
+                    <p data-i18n="feat_7_desc">Communicate directly with your customers through your bot for specialized support.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon"><i class="fa-solid fa-gift"></i></div>
+                    <h3 data-i18n="feat_8_title">Giveaways & Promos</h3>
+                    <p data-i18n="feat_8_desc">Boost your shop's visibility and engagement with built-in automated giveaway tools.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon"><i class="fa-solid fa-bullhorn"></i></div>
+                    <h3 data-i18n="feat_9_title">Global Broadcasts</h3>
+                    <p data-i18n="feat_9_desc">Instantly send notifications, promotional messages, and updates to all your customers.</p>
+                </div>
+            </div>
+
+            <!-- Big Update Announcement Section -->
+            <div class="section-header" style="margin-top: 6rem;">
+                <h2 class="gradient-text" data-i18n="big_updates_title">📣 Big Update Announcement</h2>
+                <p data-i18n="big_updates_subtitle">We are constantly evolving. Here are four powerful new tools to supercharge your business.</p>
+            </div>
+
+            <div class="features-grid">
+                <!-- Updates 1 to 4 -->
+                <div class="feature-card glass-card popular">
+                    <div class="feature-icon"><i class="fa-solid fa-newspaper"></i></div>
+                    <h3 data-i18n="upd_1_title">1. Newsfeed Style Shopping</h3>
+                    <p data-i18n="upd_1_desc">Browse products as easily as scrolling through Facebook. Add to cart and buy instantly from your feed.</p>
+                </div>
+                <div class="feature-card glass-card popular">
+                    <div class="feature-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                    <h3 data-i18n="upd_2_title">2. AI Assistant Add Product</h3>
+                    <p data-i18n="upd_2_desc">No manual data entry! Simply copy-paste a Facebook post. Our AI auto-fills Category, Name, Price, and Stock.</p>
+                </div>
+                <div class="feature-card glass-card popular">
+                    <div class="feature-icon"><i class="fa-solid fa-user-tie"></i></div>
+                    <h3 data-i18n="upd_3_title">3. AI Accountant</h3>
+                    <p data-i18n="upd_3_desc">Meet your personal accountant. Ask questions about market trends, monthly revenues, and detailed yearly financial breakdowns via chat.</p>
+                </div>
+                <div class="feature-card glass-card popular">
+                    <div class="feature-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+                    <h3 data-i18n="upd_4_title">4. Email Notifications</h3>
+                    <p data-i18n="upd_4_desc">Never miss a sale. Receive instant Email alerts the moment a customer places a new order in your shop.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Breakdowns Section (Tabs) -->
+    <section class="breakdowns" id="breakdowns">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="breakdown_title">Comprehensive Feature Breakdown</h2>
+                <p data-i18n="breakdown_subtitle">Click on the tabs below to explore what Telegram E-commerce brings to your store operations.</p>
+            </div>
+
+            <div class="tabs-container glass-card">
+                <ul class="tabs-header">
+                    <li class="tab-button active" data-tab="cust-tab" data-i18n="tab_customer">Customer Features</li>
+                    <li class="tab-button" data-tab="admin1-tab" data-i18n="tab_admin1">Admin Panel 1 (Operations)</li>
+                    <li class="tab-button" data-tab="admin2-tab" data-i18n="tab_admin2">Admin Panel 2 (Setup)</li>
+                    <li class="tab-button" data-tab="ai-tab" data-i18n="tab_ai">AI Assistant Panel</li>
+                </ul>
+                
+                <div class="tabs-content">
+                    <!-- Customer Tab -->
+                    <div class="tab-pane active" id="cust-tab">
+                        <ul class="demo-list">
+                            <li data-i18n="cust_1">🛒 <strong>Shopping</strong>: Browse categories, search products, manage cart, checkout with payment proof.</li>
+                            <li data-i18n="cust_2">🎁 <strong>Deals & Promotions</strong>: Check the latest promotions about the shop.</li>
+                            <li data-i18n="cust_3">📰 <strong>News</strong>: Latest news and updates of the shop.</li>
+                            <li data-i18n="cust_4">🔍 <strong>Search</strong>: Search products instantly by typing.</li>
+                            <li data-i18n="cust_5">👤 <strong>Account</strong>: Update profile, view orders (Pending/Confirmed), toggle notifications.</li>
+                            <li data-i18n="cust_6">🔥 <strong>Extras</strong>: Support (FAQ/Contact), Affiliate (10% commission), Website link.</li>
+                            <li data-i18n="cust_7">🎉 <strong>Giveaway</strong>: Users can join giveaways when the shop owner creates them.</li>
+                            <li data-i18n="cust_8">📱 <strong>Newsfeed</strong>: View all uploaded products in a Facebook Newsfeed style.</li>
+                            <li data-i18n="cust_9">📦 <strong>Carts & Orders</strong>: See your cart items and order history.</li>
+                            <li data-i18n="cust_10">🌐 <strong>Website</strong>: Visit the external shop website.</li>
+                            <li data-i18n="cust_11">🤖 <strong>Talk to AI Agent</strong>: Ask anything about the shop; the AI Agent answers relevant questions only.</li>
+                            <li data-i18n="cust_12">⚙️ <strong>Create Your Bot</strong>: Clone a bot like this for free.</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Admin Panel 1 -->
+                    <div class="tab-pane" id="admin1-tab">
+                        <p class="tab-note text-muted" data-i18n="adm1_note"><em>Note: To enable admin panel tools, shop admins must first add their own Payment Method to receive payments.</em></p>
+                        <ul class="demo-list">
+                            <li data-i18n="adm1_1">🧾 <strong>Manage Orders</strong>: View pending orders, payment proof, confirm/reject payments.</li>
+                            <li data-i18n="adm1_2">📢 <strong>Broadcast</strong>: Send text/media messages to all bot users.</li>
+                            <li data-i18n="adm1_3">📝 <strong>Update Content</strong>: Edit promotions/news, captions, and UI photos.</li>
+                            <li data-i18n="adm1_4">✏️ <strong>Update Caption & Photo</strong>: Update the text caption and poster image for each button.</li>
+                            <li data-i18n="adm1_5">👑 <strong>Manage Admins</strong>: Promote via key (1-hour valid), forward contact, remove admins.</li>
+                            <li data-i18n="adm1_6">🚫 <strong>Blocked Users</strong>: View or unblock banned users.</li>
+                            <li data-i18n="adm1_7">📧 <strong>Email Notifications</strong>: Receive New Order Alert emails.</li>
+                            <li data-i18n="adm1_8">🏪 <strong>Open/Close Shop</strong>: Close or open the shop depending on if you are free or busy.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Admin Panel 2 -->
+                    <div class="tab-pane" id="admin2-tab">
+                        <ul class="demo-list">
+                            <li data-i18n="adm2_1">🏢 <strong>Categories</strong>: Create/Edit/Delete (required before adding products).</li>
+                            <li data-i18n="adm2_2">🛍️ <strong>Products</strong>: Add/Edit/Delete products with name, price, description, media.</li>
+                            <li data-i18n="adm2_3">💳 <strong>Payments</strong>: Add payment methods (Name, Number, QR, Notes).</li>
+                            <li data-i18n="adm2_4">💵 <strong>Currency</strong>: Set MMK or USD (one-time setup).</li>
+                            <li data-i18n="adm2_5">⚙️ <strong>Automation</strong>: Link custom commands to buttons for auto-reply FAQ.</li>
+                            <li data-i18n="adm2_6">⌨️ <strong>Commands</strong>: Create trigger words (e.g., /info).</li>
+                            <li data-i18n="adm2_7">🌐 <strong>Website</strong>: Set or remove external website URL.</li>
+                            <li data-i18n="adm2_8">🧠 <strong>AI Agent Setup</strong>: Configure API Key (DeepSeek only) and context to auto-answer users.</li>
+                            <li data-i18n="adm2_9">🎁 <strong>Giveaway</strong>: Create giveaway events for users to participate in.</li>
+                            <li data-i18n="adm2_10">📱 <strong>Newsfeed</strong>: Enable Facebook Newsfeed style shopping.</li>
+                        </ul>
+                    </div>
+
+                    <!-- AI Assistant Panel -->
+                    <div class="tab-pane" id="ai-tab">
+                        <ul class="demo-list">
+                            <li data-i18n="ai_1">✨ <strong>AI Assistant Add Products</strong>: Copy a Facebook post and paste here to auto-fill categories, names, prices, and stock. Just upload the image to finish.</li>
+                            <li data-i18n="ai_2">📊 <strong>AI Accountant</strong>: Acts as your personal accountant. Inquire about market conditions, sales income, and get detailed monthly/yearly summaries.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guides Section -->
+    <section class="guides-section" id="guides">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="guides_title">Quick Guides & Settings</h2>
+                <p data-i18n="guides_subtitle">Starting your shop is incredibly simple. Follow these steps or customize your account.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card glass-card">
+                    <h3><i class="fa-solid fa-book-open"></i> Guides</h3>
+                    <ul class="demo-list" style="margin-top: 1rem;">
+                        <li data-i18n="guide_bot"><strong>Create Bot:</strong> Go to @BotFather -> /newbot -> Name -> Copy Token -> Paste in Main Bot Settings.</li>
+                        <li data-i18n="guide_product"><strong>Add Product:</strong> Admin Panel 2 -> Add Product -> Select Category -> Send Name -> Send Price -> Description -> Media -> Confirm.</li>
+                        <li data-i18n="guide_automation"><strong>Setup Automation:</strong> Create command -> Add content -> Link command to button in Manage Automation.</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card glass-card">
+                    <h3><i class="fa-solid fa-gear"></i> App Settings</h3>
+                    <ul class="demo-list" style="margin-top: 1rem;">
+                        <li data-i18n="setting_1">🔔 <strong>Notification:</strong> On/Off Noti.</li>
+                        <li data-i18n="setting_2">👤 <strong>Edit My Profile:</strong> Edit buyer info (name, phone, address).</li>
+                        <li data-i18n="setting_3">🤖 <strong>My Bots:</strong> See all your active bots.</li>
+                        <li data-i18n="setting_4">📜 <strong>T&C:</strong> Terms and Conditions of the bot.</li>
+                        <li data-i18n="setting_5">📈 <strong>Statistics:</strong> Shop stats (revenue, growth, top sales). Can extract to Excel.</li>
+                        <li data-i18n="setting_6">⭐️ <strong>My Plan:</strong> View your current bot plan.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="pricing_title">Simple, transparent pricing</h2>
+                <p data-i18n="pricing_subtitle">Choose the plan that fits your business needs. Upgrade anytime.</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <!-- Free Plan -->
+                <div class="pricing-card glass-card">
+                    <div class="plan-name">Free</div>
+                    <div class="plan-price">0<span> MMK/forever</span></div>
+                    <ul class="plan-features">
+                        <li><i class="fa-solid fa-check"></i> 1 Category & 5 Products</li>
+                        <li><i class="fa-solid fa-check"></i> Owner Only (1 Admin)</li>
+                        <li><i class="fa-solid fa-check"></i> 4 Broadcasts/month</li>
+                        <li><i class="fa-solid fa-check"></i> 5 Custom Commands</li>
+                        <li><i class="fa-solid fa-check"></i> Up to 2 Bots</li>
+                        <li><i class="fa-solid fa-xmark text-muted"></i> No Promotion Button</li>
+                        <li><i class="fa-solid fa-xmark text-muted"></i> Has Watermark</li>
+                    </ul>
+                    <a href="https://t.me/tg_ecommerce_official_bot" target="_blank" class="btn btn-outline btn-full">Get Started</a>
+                </div>
+
+                <!-- Basic Plan -->
+                <div class="pricing-card glass-card">
+                    <div class="plan-name">Basic</div>
+                    <div class="plan-price">270,000<span> MMK/yr</span></div>
+                    <ul class="plan-features">
+                        <li><i class="fa-solid fa-check"></i> 7 Categories & 30 Products</li>
+                        <li><i class="fa-solid fa-check"></i> Up to 2 Admins</li>
+                        <li><i class="fa-solid fa-check"></i> 10 Broadcasts/month</li>
+                        <li><i class="fa-solid fa-check"></i> 10 Automations & 25 Commands</li>
+                        <li><i class="fa-solid fa-check"></i> Up to 3 Bots</li>
+                        <li><i class="fa-solid fa-xmark text-muted"></i> Has Watermark</li>
+                    </ul>
+                    <a href="https://t.me/tg_ecommerce_official_bot" target="_blank" class="btn btn-outline btn-full">Choose Basic</a>
+                </div>
+
+                <!-- Standard Plan -->
+                <div class="pricing-card glass-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="plan-name">Standard</div>
+                    <div class="plan-price">450,000<span> MMK/yr</span></div>
+                    <ul class="plan-features">
+                        <li><i class="fa-solid fa-check"></i> 15 Categories & 50 Products</li>
+                        <li><i class="fa-solid fa-check"></i> Up to 3 Admins</li>
+                        <li><i class="fa-solid fa-check"></i> 25 Broadcasts/month</li>
+                        <li><i class="fa-solid fa-check"></i> 20 Automations & 25 Commands</li>
+                        <li><i class="fa-solid fa-check"></i> Up to 7 Bots</li>
+                        <li><i class="fa-solid fa-check"></i> <span class="gradient-text">Watermark Removed</span></li>
+                    </ul>
+                    <a href="https://t.me/tg_ecommerce_official_bot" target="_blank" class="btn btn-primary btn-full">Choose Standard</a>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="pricing-card glass-card">
+                    <div class="plan-name">Pro</div>
+                    <div class="plan-price">700,000<span> MMK/yr</span></div>
+                    <ul class="plan-features">
+                        <li><i class="fa-solid fa-check"></i> 35 Categories & 150 Products</li>
+                        <li><i class="fa-solid fa-check"></i> Up to 10 Admins</li>
+                        <li><i class="fa-solid fa-check"></i> 75 Broadcasts/month</li>
+                        <li><i class="fa-solid fa-check"></i> 50 Automations & 50 Commands</li>
+                        <li><i class="fa-solid fa-check"></i> Up to 25 Bots</li>
+                        <li><i class="fa-solid fa-check"></i> Free Deepseek API</li>
+                        <li><i class="fa-solid fa-check"></i> Help Setting Up Product</li>
+                    </ul>
+                    <a href="https://t.me/tg_ecommerce_official_bot" target="_blank" class="btn btn-outline btn-full">Choose Pro</a>
+                </div>
+
+                <!-- Business Plan -->
+                <div class="pricing-card glass-card">
+                    <div class="plan-name">Business</div>
+                    <div class="plan-price">1,200,000<span> MMK/yr</span></div>
+                    <ul class="plan-features">
+                        <li><i class="fa-solid fa-check"></i> <span class="gradient-text">Unlimited</span> Categories/Products</li>
+                        <li><i class="fa-solid fa-check"></i> <span class="gradient-text">Unlimited</span> Admins</li>
+                        <li><i class="fa-solid fa-check"></i> <span class="gradient-text">Unlimited</span> Broadcasts</li>
+                        <li><i class="fa-solid fa-check"></i> <span class="gradient-text">Unlimited</span> Automations/Commands</li>
+                        <li><i class="fa-solid fa-check"></i> Up to 50 Bots</li>
+                        <li><i class="fa-solid fa-check"></i> Free Deepseek API</li>
+                        <li><i class="fa-solid fa-check"></i> Help Setting Up Product</li>
+                    </ul>
+                    <a href="https://t.me/tg_ecommerce_official_bot" target="_blank" class="btn btn-outline btn-full">Choose Business</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-col branding">
+                <a href="https://t.me/tg_ecommerce_official_bot" class="logo" style="white-space: nowrap;">
+                    <i class="fa-solid fa-robot"></i> Telegram E-commerce
+                </a>
+                <p>The ultimate Telegram E-Commerce bot platform. Sell products, manage orders, and grow your business with AI.</p>
+            </div>
+            <div class="footer-col links">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="https://t.me/telemat_support" target="_blank">Telegram Support</a></li>
+                    <li><a href="https://t.me/tg_ecommerce_official_bot" target="_blank">FAQ</a></li>
+                    <li><a href="https://t.me/tg_ecommerce_official_bot" target="_blank">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Telegram E-commerce. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/translations.js?v=2"></script>
+    <script src="assets/script.js?v=2"></script>
+</body>
+</html>
