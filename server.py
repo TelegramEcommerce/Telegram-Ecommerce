@@ -14,7 +14,7 @@ if os.path.exists(".env"):
 
 # Configuration
 PORT = 8001
-DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "your_api_key_here")
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-939535e3073f4eaf8d54ec9b29657515")
 DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions"
 
 # Load System Prompt from file for security
